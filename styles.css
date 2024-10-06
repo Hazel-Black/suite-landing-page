@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  /*COLORS*/
+  /*background colors */
+  --main-bg: hsl(30, 29%, 97%);
+  --footer-bg: hsl(30, 33%, 93%);
+  --bottom-content-bg: hsl(219, 43%, 16%);
+  /*text colors*/
+  --h1: hsl(219, 43%, 16%);
+  --h2: hsl(218, 20%, 36%);
+  --h3: hsl(30, 29%, 97%);
+  --author-name: hsl(30, 29%, 97%);
+  --stats: hsl(219, 43%, 16%);
+  --hero-par: hsl(218, 20%, 36%);
+  --bottom-par: hsl(30, 33%, 93%);
+  --copy-right: hsl(218, 20%, 36%);
+  /*social svg colors*/
+  --social-svg: hsl(219, 43%, 16%);
+  --social-svg-hover: hsl(219, 43%, 16%, 50%);
+  /*button colors*/
+  --header-btn-bg: hsl(30, 29%, 97%);
+  --header-btn-border-text: hsl(219, 43%, 16%);
+  --header-btn-bg-hover: hsl(219, 43%, 16%);
+  --header-btn-text-hover: hsl(30, 29%, 97%);
+  --hero-btn-bg-: hsl(219, 43%, 16%);
+  --hero-btn-text: hsl(30, 29%, 97%);
+  --hero-btn-bg-hover: linear-gradient(
+    45deg,
+    hsl(264, 100%, 69%),
+    hsl(292, 76%, 54%),
+    hsl(31, 100%, 65%)
+  );
+}
